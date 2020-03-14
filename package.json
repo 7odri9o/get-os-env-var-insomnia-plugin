@@ -1,0 +1,46 @@
+{
+  "name": "get-os-env-var-insomnia-plugin",
+  "version": "1.0.0",
+  "description": "Insomnia Plugin to get Environment Variable from OS",
+  "author": "Rodrigo Rocha",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7odri9o/get-os-env-var-insomnia-plugin.git"
+  },
+  "keywords": [
+    "Insomnia",
+    "NodeJS",
+    "OS",
+    "Environment",
+    "Variable",
+    "Plugin",
+    "process.env"
+  ],
+  "files": [
+    "/src",
+    "index.js"
+  ],
+  "insomnia": {
+    "name": "getOSEnvVar",
+    "description": "Get Environment Variable from OS"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7odri9o/get-os-env-var-insomnia-plugin/issues"
+  },
+  "homepage": "https://github.com/7odri9o/get-os-env-var-insomnia-plugin#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "engines": {
+    "node": "8.9.x"
+  }
+}
