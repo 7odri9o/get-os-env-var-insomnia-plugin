@@ -22,14 +22,14 @@ Open Insomnia APP installed on Mac, Windows or Linux and go to:
 
 Put the npm package name inside input text field and click **Install Plugin**
 
-<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/develop/images/install-plugin.png#install-plugin" alt="Install Plugin"
+<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/master/images/install-plugin.png#install-plugin" alt="Install Plugin"
 	title="Install Plugin Screen" />
 
 And then the plugin will be installed.
 
 Enable the plugin by clicking on **Enable?** Switcher.
 
-<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/develop/images/enable-plugin.png#enable-plugin" alt="Enable Plugin"
+<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/master/images/enable-plugin.png#enable-plugin" alt="Enable Plugin"
 	title="Enable Plugin Screen" />
 
 ## Using the Plugin
