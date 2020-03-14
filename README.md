@@ -16,72 +16,65 @@ Use this project to Get OS Env Variable inside Insomnia REST App.
 
 ### Installing
 
-Open Insomnia APP installed on Mac, Windows or Linux and go to:
-	**Application** &rarr; **Preferences** &rarr; **Plugins** 
+Open Insomnia APP installed on Mac, Windows or Linux and go to:        
+  
+**Application** &rarr; **Preferences** &rarr; **Plugins** 
 
 Put the npm package name inside input text field and click **Install Plugin**
 
-<img src="images/install-plugin.jpg#install-plugin" alt="Install Plugin"
+<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/develop/images/install-plugin.jpg#install-plugin" alt="Install Plugin"
 	title="Install Plugin Screen" />
 
-img[src*="#install-plugin"] {
-   width:200px;
-   height:100px;
-}
+And then the plugin will be installed.
 
+Enable the plugin by clicking on **Enable?** Switcher.
 
-End with an example of getting some data out of the system or using it for a little demo
+<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/develop/images/enable-plugin.png#enable-plugin" alt="Enable Plugin"
+	title="Enable Plugin Screen" />
 
-## Running the tests
+## Using the Plugin
 
-Explain how to run the automated tests for this system
+First, you need to create your Env Variables on your OS System.
+Create it accordingly with your system.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+<details><summary>Windows</summary>
+<p>
 
 ```
-Give an example
+Here, We will put Tutorial of how to create env variable on Windows
 ```
 
-## Deployment
+</p>
+</details>
 
-Add additional notes about how to deploy this on a live system
+<details><summary>Linux</summary>
+<p>
+
+```
+Here, We will put Tutorial of how to create env variable on Linux
+```
+
+</p>
+</details>
+
+<details><summary>MacOS</summary>
+<p>
+
+```
+Here, We will put Tutorial of how to create env variable on MacOS
+```
+
+</p>
+</details>
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [NodeJS](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Rodrigo Rocha** - [7odri9o](https://github.com/7odri9o)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
