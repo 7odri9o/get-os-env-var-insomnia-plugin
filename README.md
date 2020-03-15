@@ -40,9 +40,11 @@ Create it accordingly with your system.
 <details><summary>Windows</summary>
 <p>
 
-```
-Here, We will put Tutorial of how to create env variable on Windows
-```
+Open Windows Explorer by clicking **CTRL** + **E**.    
+Right Click on **This Computer** and then click on **Properties**.  
+Click on **Advanced System Settings** in the left menu.  
+In the Advanced Tab click on **Environment Variables**.  
+Put the name and the value for the variable you need.  
 
 </p>
 </details>
@@ -50,19 +52,18 @@ Here, We will put Tutorial of how to create env variable on Windows
 <details><summary>Linux</summary>
 <p>
 
-```
-Here, We will put Tutorial of how to create env variable on Linux
-```
-
-</p>
-</details>
-
-<details><summary>MacOS</summary>
-<p>
+Preferably create your Environment Variables on /etc/profile.  
+Edit /etc/profilea and set the code below  
 
 ```
-Here, We will put Tutorial of how to create env variable on MacOS
+  EXPORT VARIABLE_NAME="VARIABLE VALUE"
+```  
+
+Save the file and reload the file running:  
+
 ```
+  source /etc/profile
+```  
 
 </p>
 </details>
