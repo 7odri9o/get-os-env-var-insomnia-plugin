@@ -1,6 +1,6 @@
 {
   "name": "get-os-env-var-insomnia-plugin",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Insomnia Plugin to get Environment Variable from OS",
   "author": "Rodrigo Rocha",
   "main": "index.js",
