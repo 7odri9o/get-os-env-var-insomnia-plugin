@@ -22,14 +22,14 @@ Open Insomnia APP installed on Mac, Windows or Linux and go to:
 
 Put the npm package name inside input text field and click **Install Plugin**
 
-<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/develop/images/install-plugin.png#install-plugin" alt="Install Plugin"
+<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/master/images/install-plugin.png#install-plugin" alt="Install Plugin"
 	title="Install Plugin Screen" />
 
 And then the plugin will be installed.
 
 Enable the plugin by clicking on **Enable?** Switcher.
 
-<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/develop/images/enable-plugin.png#enable-plugin" alt="Enable Plugin"
+<img src="https://raw.githubusercontent.com/7odri9o/get-os-env-var-insomnia-plugin/master/images/enable-plugin.png#enable-plugin" alt="Enable Plugin"
 	title="Enable Plugin Screen" />
 
 ## Using the Plugin
@@ -40,9 +40,11 @@ Create it accordingly with your system.
 <details><summary>Windows</summary>
 <p>
 
-```
-Here, We will put Tutorial of how to create env variable on Windows
-```
+Open Windows Explorer by clicking **CTRL** + **E**.    
+Right Click on **This Computer** and then click on **Properties**.  
+Click on **Advanced System Settings** in the left menu.  
+In the Advanced Tab click on **Environment Variables**.  
+Put the name and the value for the variable you need.  
 
 </p>
 </details>
@@ -50,19 +52,18 @@ Here, We will put Tutorial of how to create env variable on Windows
 <details><summary>Linux</summary>
 <p>
 
-```
-Here, We will put Tutorial of how to create env variable on Linux
-```
-
-</p>
-</details>
-
-<details><summary>MacOS</summary>
-<p>
+Preferably create your Environment Variables on /etc/profile.  
+Edit /etc/profilea and set the code below  
 
 ```
-Here, We will put Tutorial of how to create env variable on MacOS
+  EXPORT VARIABLE_NAME="VARIABLE VALUE"
+```  
+
+Save the file and reload the file running:  
+
 ```
+  source /etc/profile
+```  
 
 </p>
 </details>
