@@ -34,7 +34,9 @@
     "url": "https://github.com/7odri9o/get-os-env-var-insomnia-plugin/issues"
   },
   "homepage": "https://github.com/7odri9o/get-os-env-var-insomnia-plugin#readme",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": ">=1.2.2"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
